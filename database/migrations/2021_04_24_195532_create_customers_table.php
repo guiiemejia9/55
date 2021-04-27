@@ -20,7 +20,7 @@ class CreateCustomersTable extends Migration
             $table->date('daten');
             $table->integer('age');
             $table->string('mail',30);
-            $table->integer('phone');
+            $table->string('phone');
             $table->unsignedBigInteger('category_id');
             $table->unsignedBigInteger('gender_id');
             $table->unsignedBigInteger('department_id');

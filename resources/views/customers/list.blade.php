@@ -14,7 +14,7 @@
                 <thead>
                 <tr>
                     <th>Nombre</th>
-                    <th>NIT</th>
+                    <th class="m-2">NIT</th>
                     <th>Fecha nacimiento</th>
                     <th>Edad</th>
                     <th>Email</th>

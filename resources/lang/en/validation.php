@@ -145,6 +145,13 @@ return [
             'string' => 'el campo genero tiene que ser un texto',
             'max:50' =>'en el campo genero el texto es demasiado grande'
         ],
+
+        'age' => [
+            'required' => 'el campo edad  es requerido',
+            'integer' => 'el campo edad tiene que ser un numero',
+            'max:10' =>'en el campo edad el texto es demasiado grande'
+        ],
+
         'mail' => [
             'required' => 'el campo mail es requerido',
             'string' => 'campo email tiene que ser un texto',
